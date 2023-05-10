@@ -1,13 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    gap: 1.25rem;
+    
+}
+
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 15px auto;
-    padding: 1em;
+    
+ 
+   
 }
 
 .logo__pricipal{
-    width: 50px;
+    width: 3.125rem;
 }
 
 .material__icon:hover{
@@ -15,6 +24,25 @@
     
 }
 
+.menu__navegacao{
+    display: flex; 
+    margin-left: 6rem;
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container__navegacao{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+    
+}
 .navegacao{
+    display: flex;
     text-decoration: none;
+    
+    
+    
 }
