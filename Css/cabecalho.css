@@ -1,48 +1,62 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 1rem;
-    gap: 1.25rem;
-    
-}
-
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
- 
-   
-}
-
-.logo__pricipal{
-    width: 3.125rem;
-}
-
-.material__icon:hover{
+.mobile-menu{
+    display: none;
     cursor: pointer;
-    
 }
 
-.menu__navegacao{
-    display: flex; 
-    margin-left: 6rem;
-    background-color: antiquewhite;
-    width: 100vw;
-    height: 100vh;
-}
 
-.container__navegacao{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    
-    
-}
-.navegacao{
-    display: flex;
+a{
+    color: #ffffff;
     text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #23232e;
+    height: 8vh;
     
-    
+}
+.logo{
+    width: 40px;
+    margin-right: 200px;
+}
+
+.open{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+
+}
+.closed{
+    display: none;
+}
+
+@media ( max-width: 999px){
+    .nav-list{
+        position: absolute;
+        top: 0vh;    
+        right: 0;
+        width: 50vw;
+        height: 100vh;
+        background: #23232e;
+    }
+    .nav-list li{
+        
+        margin-left: 20px;
+    }
+    .list{
+        display: flex;
+        
+    }
     
 }

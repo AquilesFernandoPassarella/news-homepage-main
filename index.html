@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | News homepage</title>
-  <link rel="stylesheet" href="./Css/reset.css">
-  <link rel="stylesheet" href="./Css/cabecalho.css">
- 
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <header class="container">
-    <nav class="navbar">
-    <img class="logo__pricipal" src="./assets/images/logo.svg" alt="">
-      <i class="material__icon">
-        <img src="./assets/images/icon-menu.svg" alt="">
-      </i>
-    </nav>
-    <menu class="menu__navegacao">
-      <ul class="container__navegacao">
-        <li><a href="#" class="navegacao" >Home</a></li>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="stylesheet" href="./Css/reset.css" />
+    <link rel="stylesheet" href="./Css/cabecalho.css" />
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+      <img class="logo" src="./assets/images/logo.svg" alt="" />
+
+        <div class="mobile-menu"> <img class="open" src="./assets/images/icon-menu.svg" alt="">
+        <img src="./assets/images/icon-menu-close.svg" alt="" class="closed">
+      </div>
+      
+      <ul class="nav-list">
+        <li><a href="#" class="navegacao">Home</a></li>
         <li><a href="#" class="navegacao">New</a></li>
         <li><a href="#" class="navegacao">Popular</a></li>
         <li><a href="#" class="navegacao">Trending</a></li>
         <li><a href="#" class="navegacao">Categories</a></li>
-
       </ul>
-    </menu>
+    </nav>
+    </header>
 
-  </header>
-  
-  
-  
-  
-<!--   
+    <!--   
 
   The Bright Future of Web 3.0?
 
@@ -75,5 +81,5 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Aquiles Fernando Passarella</a>.
   </div> -->
-</body>
+  </body>
 </html>
