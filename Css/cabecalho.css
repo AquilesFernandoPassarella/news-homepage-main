@@ -51,12 +51,7 @@ nav{
         background: #23232e;
     }
     .nav-list li{
-        
         margin-left: 20px;
-    }
-    .list{
-        display: flex;
-        
     }
     
 }
