@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -20,16 +20,32 @@
     <link rel="stylesheet" href="./Css/cabecalho.css" />
   </head>
   <body>
-    <div></div>
     <header>
-      <nav>
-      <img class="logo" src="./assets/images/logo.svg" alt="" />
-    
-        <div class="mobile-menu"> <img class="open" src="./assets/images/icon-menu.svg" alt="">
-        <img src="./assets/images/icon-menu-close.svg" alt="" class="closed">
+      <div class="mobile-container">
+        <div class="topnav">
+          <nav>
+            <img class="logo" src="./assets/images/logo.svg" alt="Logo" />
+          </nav>
+          <div id="myLinks">
+            <ul class="nav-list">
+              <li><a href="#" class="navegacao">Home</a></li>
+              <li><a href="#" class="navegacao">New</a></li>
+              <li><a href="#" class="navegacao">Popular</a></li>
+              <li><a href="#" class="navegacao">Trending</a></li>
+              <li><a href="#" class="navegacao">Categories</a></li>
+            </ul>
+          </div>
+          <a
+            href="javascript:void(0);"
+            class="icon"
+            onclick="renderMobileList()"
+          >
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
       </div>
     </header>
-<div></div>
+
     <script>
       function renderMobileList() {
         var x = document.getElementById("myLinks");
