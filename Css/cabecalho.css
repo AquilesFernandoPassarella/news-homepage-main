@@ -91,17 +91,3 @@ body {
   color: black;
 }
 
-/* @media ( max-width: 999px){
-    .nav-list{
-        position: absolute;
-        top: 0vh;    
-        right: 0;
-        width: 50vw;
-        height: 100vh;
-        background: #23232e;
-    }
-    .nav-list li{
-        margin-left: 20px;
-    }
-    
-} */
